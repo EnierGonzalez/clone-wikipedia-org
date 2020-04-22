@@ -1,0 +1,242 @@
+:root{
+    /*for de logo*/
+    --logo-font: Georgia,Times,Times,serif;
+    --body-font:-apple-system,Helvetica,Arial,sans-serif
+}
+
+
+div .central-text-logo  .central-text-logo-img{
+    width: 160px;
+}
+
+.strong-title{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: var(--logo-font);
+    display: block;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.central-logo-wrapper{
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+.central-text-logo-img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom:12px;
+    margin-top: 30px;
+    height: 25px;
+    
+}
+/**Main seccion*/
+main{
+    margin-top: 20px;
+}
+.central-main{
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+    height: 325px;
+    background-image: url(../img/Wikipedia-logo-center.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.central-main div a {
+    text-decoration: none;
+    color: #36c;
+    font-size: 17px;
+    
+}
+
+.central-main div a:hover{
+    text-decoration: underline;
+    
+}
+
+.centrl-main div a strong{
+    text-align: center;
+}
+.central-main div a small{
+    text-decoration: none;
+    font-size: 11.8px;
+    color: #54595d;
+    
+    
+}
+.central-main div a small:hover{
+    text-decoration: none;
+    
+}
+
+.central-a-lang{
+    width: 156px;
+    height: 45px;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.lang1{
+    margin-top: 13px;
+    top: 10;
+    right: 52%;
+}
+
+.lang2{
+    margin-top: 13px;
+    top: 10;
+    left: 52%;
+}
+
+.lang3{
+    top: 18%;
+    right: 56%;
+}
+
+.lang4{
+    top: 18%;
+    left: 56%;
+
+}
+
+.lang5{
+    top:24%;
+    right: 57%;
+
+}
+
+.lang6{
+    top: 24%;
+    left: 57%;
+}
+
+.lang7{
+    top: 30%;
+    right: 56%;
+}
+
+.lang8{
+    top: 30%;
+    left: 56%;
+}
+
+.lang9{
+    top: 37%;
+    right: 53%;
+}
+
+.lang10{
+    top: 37%;
+    left: 53%;
+}
+
+/*Console Search*/
+
+.search-console{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+
+
+.search-input {
+    width: 394px;
+    height: 43px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid grey;
+    outline: none;
+}
+
+.search-button{
+    margin: 0;
+    padding: 22px 26px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #3377cc;
+    background-color: #36c;
+    outline: none;
+}
+
+.search-button:hover{
+    background-color: #447ff5;
+    border: 1px solid #447ff5;
+}
+
+.lenguaje-select{
+    width: 100%;
+    display: flex;
+    height: 40px;
+    margin-top: 25px;
+}
+
+.lenguaje-button{
+    margin-top: 30px;
+    margin: 0 auto;
+    width: 240px;
+    height: 35px;
+    color: #36c;
+    font-family: var(--body-font) ;
+    font-size: 13px;
+    border: 1px solid #a2a9b1;
+    outline: 1.6rem solid #fff;
+    border-radius: 2px;
+}
+
+.main-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 340px;
+    display: flex;
+    padding: 40px 35px ;
+    border-top: 1px solid grey;
+}
+
+.left-footer{
+    width: 30%;
+    background-color: #f8f9fa;
+    padding-top: 5px;
+    
+    
+}
+
+.top-footer{
+    height: 30%;
+    padding-left: 2%;
+    padding-right: 25%;
+}
+
+.bottom-footer{
+    height: 70%;
+}
+.right-footer{
+    width: 70%;
+    padding: 0px 40px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.right-footer a{
+    width: 30%;
+    color: #36c;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: var(--logo-font);
+}
+
+.right-footer a small{
+    color: grey;
+}
+
